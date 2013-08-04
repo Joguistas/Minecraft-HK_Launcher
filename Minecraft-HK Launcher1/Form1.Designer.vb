@@ -158,10 +158,11 @@ Partial Class Form1
         Me.TextBox2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.RoyalBlue
         Me.TextBox2.Location = New System.Drawing.Point(628, 31)
-        Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(234, 14)
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TextBox2.Size = New System.Drawing.Size(234, 20)
         Me.TextBox2.TabIndex = 4
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'TextBox1
         '
@@ -169,10 +170,9 @@ Partial Class Form1
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.TextBox1.Location = New System.Drawing.Point(628, 11)
-        Me.TextBox1.Multiline = True
+        Me.TextBox1.Location = New System.Drawing.Point(628, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(234, 14)
+        Me.TextBox1.Size = New System.Drawing.Size(234, 20)
         Me.TextBox1.TabIndex = 3
         '
         'Label3

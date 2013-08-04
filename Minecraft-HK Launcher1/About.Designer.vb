@@ -50,9 +50,9 @@ Partial Class About
         Me.Label2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(287, 84)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 15)
+        Me.Label2.Size = New System.Drawing.Size(103, 15)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Version"
+        Me.Label2.Text = "Version : Beta 1.0"
         '
         'GroupBox1
         '
@@ -71,9 +71,10 @@ Partial Class About
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(386, 120)
         Me.Label4.TabIndex = 2
-        Me.Label4.Text = "Project Director: HKZing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Chief Programmer: j113203" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Assistant: davidchan098" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "S" & _
-    "pecials Thanks: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DEFYSTUDIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Copyright © 2011-2013 Minecraft-HK Community. Al" & _
-    "l rights reserved."
+        Me.Label4.Text = "Project Director: HKZing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Chief Programmer: j113203 , JLChnToZ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Assistant: davidc" & _
+    "han098" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Specials Thanks: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DEFYSTUDIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Copyright © 2011-2013 Minecraft-HK Co" & _
+    "mmunity. All rights reserved."
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label3
         '
